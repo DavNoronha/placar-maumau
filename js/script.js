@@ -9,7 +9,7 @@ const cs = (el)=>document.querySelectorAll(el);
 
 
 //                  Botões
-function addJogador() {
+function addJogador() {//adicionar jogadores no array e chamar func para atualizar tela
     c('.jogador-tabela').innerHTML = '';
     let nome = c('.nome-jogador').value;
 
